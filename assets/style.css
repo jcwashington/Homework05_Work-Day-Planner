@@ -55,6 +55,7 @@ textarea {
 }
 
 .past {
+  color: black;
   background-color: var(--past);
   color: white;
 }
