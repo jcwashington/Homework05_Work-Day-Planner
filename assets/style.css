@@ -1,14 +1,15 @@
 :root {
   /* var for changing colors to be more colorblind friendly */
-  --future:#044925;
+  --future:#04763B;
   --present: #8A001C;
-  --past: 	#808080;
+  --past: 	#dfe6e9;
   --saveBlue: #0066ff;
   --bkgrnd: #F4F4ED;
+  --contrastOrange: #FF9900;
 }
 body {
   background-color: var(--bkgrnd);
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
@@ -23,8 +24,9 @@ textarea {
 }
 
 .jumbotron {
+  background: var(--present);
+  background: radial-gradient(circle, var(--present) 0%, var(--bkgrnd) 75%);
   text-align: center;
-  background-color: transparent;
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
@@ -47,9 +49,10 @@ textarea {
 }
 
 .hour {
+  border-radius: 15px 0 0 15px;
   background-color: white;
   color: black;
-  border-top: 1px dashed black;
+  border-top: 1px solid black;
 }
 
 .past {
@@ -76,6 +79,7 @@ textarea {
 }
 
 .saveBtn i:hover {
+  color: var(--contrastOrange);
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }

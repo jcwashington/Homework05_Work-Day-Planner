@@ -44,7 +44,6 @@ $( document ).ready(function() {
         event.preventDefault(); // prevent the default refresh
         var taskText = $(this).siblings(".description").val();
         var taskTime = $(this).parent().attr("id").split("hour")[1];
-
         console.log(taskText, taskTime); 
         localStorage.setItem(taskTime, taskText);
     })
