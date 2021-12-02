@@ -5,7 +5,6 @@
   --past: 	#dfe6e9;
   --saveBlue: #0066ff;
   --bkgrnd: #F4F4ED;
-  --contrastOrange: #FF9900;
 }
 body {
   background-color: var(--bkgrnd);
@@ -79,7 +78,7 @@ textarea {
 }
 
 .saveBtn i:hover {
-  color: var(--contrastOrange);
+  color: black;
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
