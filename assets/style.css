@@ -1,7 +1,8 @@
 :root {
   /* var for changing colors to be more colorblind friendly */
-  --future:#078543;
-  --present: #FF0035;
+  --future:#044925;
+  /* --present: #FF0035; */
+  --present: #8A001C;
   --past: 	#808080;
   --saveBlue: #0066ff;
   --bkgrnd: #F4F4ED;
@@ -17,7 +18,7 @@ textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: black;
+  color: white;
   border-left: 1px solid black;
   padding: 10px;
 }
