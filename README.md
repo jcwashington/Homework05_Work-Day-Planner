@@ -6,6 +6,8 @@ The application will use color to indicate where in time an event is (i.e. past,
 
 This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery
 
+View my finished application here: https://jcwashington.github.io/Homework05_Work-Day-Planner/
+
 ## User Story
 
 ```
