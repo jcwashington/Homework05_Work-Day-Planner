@@ -36,7 +36,7 @@ THEN the saved events persist
 
 ## Site Visuals
 
-- placeholder for site gif -
+![A user clicks on slots on the color-coded calendar and edits the events.](jw_hw05_work-day-planner.gif)
 
 ## Functionality Contributions
 - HTML and HTML semantic tags
